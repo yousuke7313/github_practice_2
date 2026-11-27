@@ -1,10 +1,10 @@
 def add_numbers(num1, num2):
 	# TODO: 足し算の実装
-	return None
+	return num1 + num2
 
 def multiply_numbers(num1, num2):
 	# TODO: 掛け算の実装
-	return None
+	return num1 * num2
 
 def subtract_numbers(num1, num2):
 	# TODO: 引き算の実装
@@ -40,7 +40,7 @@ def calcuate(choice, num1, num2):
 	elif choice == '5':
 		result = average_numbers(num1, num2)
 		print(f"{num1} と {num2} の平均は {result} です。")
-
+#111
 def main():
 	print("二つの数の計算ができます！")
 	print("1. 足し算")
